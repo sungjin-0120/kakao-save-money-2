@@ -1,3 +1,5 @@
+from random import randint
+
 ray=[]
 yu=[]
 money=int(input("얼마 넣을래"))
@@ -12,6 +14,7 @@ for x in range(26):
 sum_yu=sum(yu)
 ray.append(f"합:{sum_yu}")
 print(ray) 
+
 
 
 
